@@ -20,4 +20,13 @@ public class TestHello {
 		assertEquals("onetwo", result);
 
 	}
+
+	@Test
+	public void testAdd() {
+		Hello myUnit = new Hello();
+
+		int result = myUnit.add(10,20);
+
+		assertEquals(30, result);
+	}
 }
