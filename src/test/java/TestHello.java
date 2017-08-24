@@ -29,4 +29,13 @@ public class TestHello {
 
 		assertEquals(30, result);
 	}
+
+	@Test
+	public void testSubtract() {
+		Hello myUnit = new Hello();
+
+		int result = myUnit.subtract(20,10);
+
+		assertEquals(10, result);
+	}
 }
